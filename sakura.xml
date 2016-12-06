@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE score-partwise
+          PUBLIC "-//Recordare//DTD MusicXML 1.1 Partwise//EN"
+                 "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="1.1">
+  <movement-title>さくらさくら</movement-title>
+  <identification>
+    <!-- 作曲者，編曲者，作詞者について（略） -->
+    <!-- 符号化したソフトウェアについて（略） -->
+  </identification>
+  <defaults>
+    <!-- 五線譜について（略） -->
+    <!-- 楽譜のレイアウトについて（略） -->
+    <!-- 印刷について（略） -->
+    <!-- フォントについて（略） -->
+  </defaults>
+  <part-list>  <!-- 総譜（フルスコア） -->
+    <score-part id="P1">
+      <part-name>Part1</part-name>
+      <!-- 演奏楽器について（略） -->
+      <!-- MIDI楽器について（略） -->
+    </score-part>
+  </part-list>
+  <part id="P1">  <!-- パート -->
+    <measure number="1" width="279">  <!-- 第1小節 -->
+      <!-- 印刷について（略） -->
+      <attributes>
+        <divisions>1</divisions>
+        <key>  <!-- 調 -->
+          <fifths>0</fifths><mode>major</mode>  <!-- 長調 -->
+        </key>
+        <time>  <!-- 拍子 -->
+          <beats>4</beats>  <!-- 4分の4拍子 -->
+          <beat-type>4</beat-type>
+        </time>
+        <clef>  <!-- 音部記号 -->
+          <sign>G</sign><line>2</line>  <!-- ト音記号 -->
+        </clef>
+      </attributes>
+      <note>  <!-- 全休符 -->
+        <rest/>
+        <duration>4</duration><voice>1</voice>
+        <type>whole</type>
+      </note>
+    </measure>
+    <measure number="2" width="360">  <!-- 第2小節 -->
+      <print/>
+      <note>  <!-- ラ，4分音符 -->
+        <pitch><step>A</step><octave>4</octave></pitch>
+        <duration>1</duration><voice>1</voice>
+        <type>quarter</type><stem>up</stem><notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic><text>さ</text>
+        </lyric>
+      </note>
+      <note>  <!-- ラ，4分音符 -->
+        <pitch><step>A</step><octave>4</octave></pitch>
+        <duration>1</duration><voice>1</voice>
+        <type>quarter</type><stem>up</stem><notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic><text>く</text>
+        </lyric>
+      </note>
+      <note>  <!-- シ，2分音符 -->
+        <pitch><step>B</step><octave>4</octave></pitch>
+        <duration>2</duration><voice>1</voice>
+        <type>half</type><stem>down</stem><notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic><text>ら</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="3" width="360"> <!-- 第3小節 -->
+      <print/>
+      <note>    <!-- 1オクターブ上のラ，2分音符 -->
+        <pitch><step>A</step><octave>5</octave></pitch>
+        <duration>1</duration><voice>1</voice>
+        <type>quarter</type><stem>up</stem><notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic><text>さ</text>
+        </lyric>
+      </note>
+      <note>  <!-- 和音，ラ，2分音符 -->
+        <chord/>
+        <pitch><step>A</step><octave>4</octave></pitch>
+        <duration>1</duration><voice>1</voice>
+        <type>quarter</type><stem>up</stem><notations/>
+      </note>
+      <note>  <!-- 和音，ミ，2分音符 -->
+        <chord/>
+        <pitch><step>E</step><octave>4</octave></pitch>
+        <duration>1</duration><voice>1</voice>
+        <type>quarter</type><stem>up</stem><notations/>
+      </note>
+      <note>  <!-- 1オクターブ上のシ，2分音符 -->
+        <pitch><step>B</step><octave>5</octave></pitch>
+        <duration>1</duration><voice>1</voice>
+        <type>quarter</type><stem>up</stem><notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic><text>く</text>
+        </lyric>
+      </note>
+      <note>  <!-- 和音，ラ，2分音符 -->
+        <chord/>
+        <pitch><step>A</step><octave>4</octave></pitch>
+        <duration>1</duration><voice>1</voice>
+        <type>quarter</type><stem>up</stem><notations/>
+      </note>
+      <note>  <!-- 和音，ミ，2分音符 -->
+        <chord/>
+        <pitch><step>E</step><octave>4</octave></pitch>
+        <duration>1</duration><voice>1</voice>
+        <type>quarter</type><stem>up</stem><notations/>
+      </note>
+      <note>  <!-- 1オクターブ上のシ，2分音符 -->
+        <pitch><step>B</step><octave>5</octave></pitch>
+        <duration>2</duration><voice>1</voice>
+        <type>half</type><stem>down</stem><notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic><text>ら</text>
+        </lyric>
+      </note>
+      <note>  <!-- 和音，シ，2分音符 -->
+        <chord/>
+        <pitch><step>B</step><octave>4</octave></pitch>
+        <duration>2</duration><voice>1</voice>
+        <type>half</type><stem>down</stem><notations/>
+      </note>
+      <note>  <!-- 和音，ミ，2分音符 -->
+        <chord/>
+        <pitch><step>E</step><octave>4</octave></pitch>
+        <duration>2</duration><voice>1</voice>
+        <type>half</type><stem>down</stem><notations/>
+      </note>
+    </measure>
+  </part>
+</score-partwise>
